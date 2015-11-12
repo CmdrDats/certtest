@@ -7,6 +7,12 @@ Just a little repo to reproduce a bug in Cursive, from about 0.1.64 (the rework 
 Just open in IntelliJ IDEA with Cursive 0.1.64+ installed (tested on IDEA 14 and 15, and
 all versions of Cursive to 0.1.70 - same problem)
 
+Error message:
+```
+Error reading /Users/cmdrdats/storage/ext/certtest/project.clj
+resources/Equifax_Secure_Certificate_Authority.pem (No such file or directory)
+```
+
 `lein repl` on command lein works.
 
 ## License
